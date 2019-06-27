@@ -15,10 +15,10 @@ date_format: '%Y-%m-%d'
 #set repo
 repository: luckystoneke/jekyll-theme-next
 github_url: https://github.com/luckystoneke
-url: https://luckystoneke.github.io
+#url: https://luckystoneke.github.io
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-#url: 
+url: 
 baseurl: 
 permalink: pretty
 

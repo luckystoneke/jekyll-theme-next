@@ -24,12 +24,12 @@ date: 2019-10-16 15:00:09
 会死人（~_~，哈哈）。
 
 &emsp;&emsp;生活上想要顺心，自律不失为一种简单的方式，但需要毅力。
-![life](../../../../../assets/images/life.gif) 
+![life](/assets/images/life.gif) 
 
 ## **Next**
 &emsp;&emsp;接下来，需要对重点对自己的工作做一些规划，让工作为生活更好的服务，
 也为了让自己更加开心。未来的路，由自己决定，能走多远，尽力就行。
-![next](../../../../assets/images/plan.gif) 
+![next](/assets/images/plan.gif) 
 
 ## **Last**
 &emsp;&emsp;人生如游戏，当你遇到敌人的时候，就说明方向走对了。

@@ -13,8 +13,8 @@ date: 2019-10-16 15:00:09
 硬着头皮呆了下来，安慰自己说北京离家近，哈哈。不满于现状，想要重新做回自己，索性换了一家互联网公司，想着让自己忙起来，或许可以让自己过的更充实
 一点。自己也算努力，搁置一年的大数据开发又找到了那种久违的感觉，做着自己喜欢的工作，每天都很开心。庆幸的是，一直到现在，我都还有这种感觉，工作还算开心。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;对我来说，工作想要保持热情，兴趣真的占有很高的权重，然后才是金钱。发挥自己的优势，金钱也就顺理成章的来。
-![work](https://github.com/luckystoneke/luckystoneke.github.io/blob/master/assets/images/work.jpg)  
+&emsp;&emsp;对我来说，工作想要保持热情，兴趣真的占有很高的权重，然后才是金钱。发挥自己的优势，金钱也就顺理成章的来。
+![work](https://github.com/luckystoneke/luckystoneke.github.io/tree/master/assets/images/work.jpg)  
 
 ## **Life**
 &emsp;&emsp;脱离校园后的生活，我觉得变化最大的就是自己的身体，当然是往好的方面发展，虽然身体略微发福，但也在正常范围内，
@@ -24,12 +24,12 @@ date: 2019-10-16 15:00:09
 会死人（~_~，哈哈）。
 
 &emsp;&emsp;生活上想要顺心，自律不失为一种简单的方式，但需要毅力。
-![life](https://github.com/luckystoneke/luckystoneke.github.io/blob/master/assets/images/life.jpg) 
+![life](https://github.com/luckystoneke/luckystoneke.github.io/tree/master/assets/images/life.jpg) 
 
 ## **Next**
 &emsp;&emsp;接下来，需要对重点对自己的工作做一些规划，让工作为生活更好的服务，
 也为了让自己更加开心。未来的路，由自己决定，能走多远，尽力就行。
-![next](https://github.com/luckystoneke/luckystoneke.github.io/blob/master/assets/images/plan.jpg) 
+![next](https://github.com/luckystoneke/luckystoneke.github.io/tree/master/assets/images/plan.jpg) 
 
 ## **Last**
 &emsp;&emsp;人生如游戏，当你遇到敌人的时候，就说明方向走对了。

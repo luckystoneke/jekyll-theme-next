@@ -11,6 +11,6 @@ type: about
 **Email**: ke.luckystone@gmail.com
 
 **微信公众号**：更新较慢      
-  ![微信扫码关注](../assets/images/wx_platform3.gif)  
+  ![微信扫码关注](../assets/images/wx_platform5.gif)  
 
 

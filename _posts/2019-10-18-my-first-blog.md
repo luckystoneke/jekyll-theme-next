@@ -2,7 +2,7 @@
 title: 我的第一篇博客
 date: 2019-10-18 15:00:09
 categories:
- - Tech
+ - Life
 tags:
 ---
 ## **写在前面**

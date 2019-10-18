@@ -1,7 +1,7 @@
 ---
 title: 我的第一篇博客
 date: 2019-10-16 15:00:09
-categories:
+categories:wx
  - Life
 tags:
 ---
@@ -38,4 +38,7 @@ tags:
 &emsp;&emsp;人生如游戏，当你遇到敌人的时候，就说明方向走对了。
 
 &emsp;&emsp;**Email**: ke.luckystone@gmail.com
+
+**微信公众号**：      
+  ![微信扫码关注](../assets/images/wx_platform2.gif)  
 

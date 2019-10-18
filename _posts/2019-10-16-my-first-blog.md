@@ -40,5 +40,5 @@ tags:
 &emsp;&emsp;**Email**: ke.luckystone@gmail.com
 
 **微信公众号**：      
-  ![微信扫码关注](../assets/images/wx_platform2.gif)  
+  ![微信扫码关注](/assets/images/wx_platform2.gif)  
 

@@ -1,8 +1,8 @@
 ---
 title: 我的第一篇博客
-date: 2019-10-15 15:00:09
-categories:wx
- - Life
+date: 2019-10-18 15:00:09
+categories:
+ - Tech
 tags:
 ---
 ## **写在前面**
@@ -41,4 +41,5 @@ tags:
 
 **微信公众号**：      
   ![微信扫码关注](/assets/images/wx_platform2.gif)  
+
 

@@ -17,7 +17,7 @@ tags:
 
 &emsp;&emsp;实现流式处理系统有两种完全不同的方式：一种是称作原生流处理，意味着所有输入的记录一旦到达即会一个接着一个进行处理，如下图所示。 这种模式最直观的优点就是延迟低。
 
-<img src="/assets/images/stream1.png" width="100" height="50" alt="stream1" align=center />
+<img src="https://github.com/luckystoneke/luckystoneke.github.io/blob/master/assets/images/stream1.png" width="100" height="50" alt="stream1" align=center />
 
 ![stream1](/assets/images/stream1.png) 
 
@@ -44,7 +44,7 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 ## **前两代流处理计算框架的应用场景分析**
 
-* Storm
+* ###Storm 
 
 1. 纯实时，毫秒级延迟的场景，比如实时计算系统，要求纯实时进行交易和分析时。
 
@@ -52,7 +52,7 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 3. 需要考虑针对高峰低峰时间段，动态调整实时计算程序的并行度，以较大限度利用集群资源。
 
-* Spark Streaming 
+* ###Spark Streaming 
 
 1. 不满足上述特定要求，可以考虑使用Spark Streaming来进行实时计算。
 
@@ -63,7 +63,7 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 ## **第三代流处理计算框架Flink的优势和特性**
 
-* 优势
+* ###优势
 
 1. 支持高吞吐、低延迟、高性能的流处理。
 
@@ -85,19 +85,19 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 10. 支持程序自动优化，避免特定情况下Shuffle、排序等昂贵操作，中间结果有必要进行缓存。
 
-* 区别于Spark的流批处理一体化解决方案
+* ###区别于Spark的流批处理一体化解决方案
 
 &emsp;&emsp;Spark和Flink都具有流和批处理能力，但是他们的做法是相反的。Spark Streaming是把流转化成一个个小的批来处理，这种方案的一个问题是我们需要的延迟越低，额外开销占的比例就会越大，这导致了Spark Streaming很难做到秒级甚至亚秒级的延迟。Flink是把批当作一种有限的流，这种做法的一个特点是在流和批共享大部分代码的同时还能够保留批处理特有的一系列的优化。
 
 &emsp;&emsp;Flink作为原生流处理框架，在流处理方面的功能，延迟，一致性和性能上综合来看是目前社区最优秀的，所以可以采用Flink来实现流和批的一体化解决方案。
 
-* 时间机制的丰富性
+* ###时间机制的丰富性
 
 &emsp;&emsp;Spark Streaming 只支持处理时间，Structured streaming 支持处理时间和事件时间，同时支持 watermark 机制处理滞后数据。
 
 &emsp;&emsp;Flink 支持三种时间机制：事件时间，注入时间，处理时间，同时支持 watermark 机制处理滞后数据。
 
-* 阿里Blink与Flink的结合
+* ###阿里Blink与Flink的结合
 
 ![stream5](/assets/images/stream5.png) 
 
@@ -105,13 +105,13 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 &emsp;&emsp;blink开源，目前在[https://github.com/apache/flink/tree/blink](https://github.com/apache/flink/tree/blink)，有兴趣的可以去查阅。
 
-* 生态较完善，广泛集成常用Connectors
+* ###生态较完善，广泛集成常用Connectors
 
 ![stream6](/assets/images/stream6.png) 
 
 ## **Flink在实际项目中的简单应用**
 
-* 业务场景
+* ###业务场景
 
 ![stream7](/assets/images/stream7.png) 
 
@@ -122,11 +122,11 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 &emsp;&emsp;说明：请求和展现的拼接是"内连接"，即有展现的sku才保留，无展现的sku要丢弃。新请求（请求和展现日志拼接后的数据）与点击的拼接则为"外连接"，因为要计auc,这里对有点击的请求为正例，无点击的请求为负例。
 
-* 原始的拼接框架
+* ###原始的拼接框架
 
 &emsp;&emsp;最初的拼接框架是基于Storm进行开发的，主要用了两个拓扑，一个用来做请求和展现的拼接，另一个用来做新请求和点击的拼接。但框架代码逻辑较复杂，维护成本较高，且需要自己维护队列进行日志缓存，一旦任务重启或失败，缓存的数据就会丢失（点击日志由于缓存时间长，缓存数据量较大），造成后续应用出现不正确的结果。
 
-* 新的拼接框架
+* ###新的拼接框架
 
 &emsp;&emsp;根据上述的各个框架主要指标的对比以及优缺点的分析，最后我们选择了Flink作为新的流处理计算框架，具体流程如下如所示。
 

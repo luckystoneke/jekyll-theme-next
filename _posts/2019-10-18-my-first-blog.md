@@ -40,7 +40,7 @@ tags:
 
 &emsp;&emsp;**Email**: ke.luckystone@gmail.com
 
-**微信公众号**：      
+&emsp;&emsp;**微信公众号**：      
   ![微信扫码关注](/assets/images/wx_platform4.gif)  
 
 

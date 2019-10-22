@@ -37,7 +37,7 @@ Flink是目前较火的大数据处理引擎，在流式计算领域，有很多
 
 &emsp;&emsp;上述三代主流开源流处理计算框架的关键指标对比如下表所示。
 
-![stream4](/assets/images/stream4.png) 
+![stream4](/assets/images/stream4-1.png) 
 
 &emsp;&emsp;其中，Declarative API，中文一般叫做声明式编程 API,而Compositional API是组合式API。举个例子，我们要一个糕点，去糕点店直接去定做告诉店员我们要什么样式的糕点，然后店员去给我们做出来，这就是 Declarative。而 Compositional 对应的就是面粉、鸡蛋等，我们自己去做。
 

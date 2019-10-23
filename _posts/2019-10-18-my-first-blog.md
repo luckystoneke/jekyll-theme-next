@@ -4,6 +4,7 @@ date: 2019-10-18 15:00:09
 categories:
  - Life
 tags:
+ - Life
 ---
 ![微信扫码关注](/assets/images/focus.gif) 
 ## **写在前面**
